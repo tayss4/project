@@ -1,0 +1,56 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: #00A281;
+    background-color: black;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1{
+    color: #00A281;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#botao{
+    background-color: #00A281;
+    color:white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.styleform{
+    border: 2px solid #00A281;
+    margin-bottom: 5px;
+}
+
+.form-label{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#entrar{
+    color: #00A281;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 1px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.class1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p1{
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 5%;
+}
