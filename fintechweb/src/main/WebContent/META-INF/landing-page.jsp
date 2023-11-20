@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintech</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/cadastro.css">
+
+    <!-- Font Awesome CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="class1">
+        <p></p>
+        <h1>SmartWALLET</h1>
+        <p id="p1">Comece a ter controle das suas finanças agora mesmo!</p>
+    </header>
+
+    <form action="" id="cadastro" name="cadatro" method="post" class="row gy-2 gx-3 class1">
+        <div class="col-auto">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control styleform" id="email" placeholder="username@gmail.com">
+        </div>
+
+        <div class="col-auto">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control styleform" id="senha" placeholder="********"></input>
+        </div>
+
+        <div class="col-auto">
+            <label for="senha" class="form-label"> Confirme sua Senha</label>
+            <input type="password" class="form-control styleform" id="senha" placeholder="********"></input>
+        </div>
+
+        <div class="form-check col-auto">
+            <input class="form-check-input" type="checkbox" value="termosdeuso" id="termosdeuso">
+            <label class="form-check-label" for="termosdeuso"> Eu aceito os Termos de Uso</label>
+        </div>
+
+        <button id="botao" type="submit" class="btn col-auto">CADASTRAR</button>
+    </form>
+
+    <footer class="class1">
+        <p>Já possui uma conta?<button id="entrar" type="button" class="btn btn-sm">ENTRAR</button></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
